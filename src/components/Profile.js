@@ -1,21 +1,21 @@
 import React from "react";
-import './Profile.css';
+import s from './Profile.module.css';
 const Profile = () =>
 {
     return (
-        <div className="profile">
+        <div className={s.profile}>
             <div>
                 image
             </div>
             <div>
                 profile + description
             </div>
-            <div>
+            <div className={s.products}>
                 product
-                <div>
+                <div className={s.item}>
                     products information
                 </div>
-                <div>
+                <div className={s.item}>
                     comment
                 </div>
             </div>
