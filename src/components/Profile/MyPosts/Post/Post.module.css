@@ -1,0 +1,12 @@
+
+.item {
+    grid-area: content;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.item img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+}

@@ -1,26 +1,16 @@
 import React from "react";
 import s from './Profile.module.css';
+import MyPosts from "./MyPosts/MyPosts";
+import Image from "./Image/ProfileImage";
+import ProfileName from "./ProfileName/ProfileName";
 const Profile = () =>
 {
     return (
-        <div className={s.profile}>
-            <div>
-                image
-            </div>
-            <div>
-                profile + description
-            </div>
-            <div className={s.products}>
-                product
-                <div className={s.item}>
-                    products information
-                </div>
-                <div className={s.item}>
-                    comment
-                </div>
-            </div>
-            <div>
-
+        <div>
+            <div className={s.profile}>
+                <Image />
+                <ProfileName />
+                <MyPosts />
             </div>
         </div>
     );
