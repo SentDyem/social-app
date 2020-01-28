@@ -4,7 +4,9 @@ const Ads = () =>
 {
     return (
         <div className={s.ads}>
-            ADS
+            <div>
+                Это блок рекламных объявлений
+            </div>
             <img className={s.logo} src="https://www.adaware.com/sites/default/files/inline-images/adblock_screen_0.png" alt=""/>
         </div>
 
