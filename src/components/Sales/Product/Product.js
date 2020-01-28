@@ -5,7 +5,9 @@ const Product = (props) => {
       <div className={s.product}>
           <div className={s.name}>
           {props.name}
-              {props.specify}
+              <div className={s.specify}>
+                  {props.specify}
+              </div>
           </div>
           <div className={s.information}>
               <img src="https://cdn4.iconfinder.com/data/icons/store-4/92/icon72-16-512.png" alt=""/>

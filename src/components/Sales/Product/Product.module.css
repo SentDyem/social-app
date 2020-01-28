@@ -6,7 +6,7 @@
 
 }
 .product img{
-width: 155px;
+width: 40px;
 }
 .product div {
 
@@ -16,4 +16,7 @@ width: 155px;
 }
 .information {
     text-align: justify;
+}
+.specify {
+    font-size: 24px;
 }
