@@ -4,13 +4,14 @@ const Post = (props) =>
 {
     return (
             <div className={s.item}>
-                <img src="https://www.fromdoppler.com/wp-content/themes/doppler_site/img/client-manager-hans-hatch.jpg" alt=""/>
-                {props.name}
+                <img src="http://s1.iconbird.com/ico/2013/12/505/w450h4001385925286User.png" alt=""/>
+               Пользователь - {props.name}
                 <div>
                     {props.message}
                 </div>
                 <div>
-                    <button>Нравится</button>
+                    <button>Мне нравится {props.likesCount}</button>
+
                 </div>
             </div>
     );
