@@ -17,3 +17,7 @@
     text-decoration: none;
     color: black;
 }
+.menu a.active {
+    color: white;
+
+}
