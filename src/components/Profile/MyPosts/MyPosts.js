@@ -9,7 +9,8 @@ const MyPosts = () =>
             <textarea name="" id="" cols="40" rows="2"></textarea>
                 <button>Добавить комментарий</button>
                 </div>
-            <Post />
+            <Post name = 'Андрей Михайлов' message = 'Сотрудничаем на рынке уже большет 10 лет, пока всё устриавает'/>
+            <Post name = 'Дмитрий Петрунин' message = 'Отличный парнер, будем работать дальше'/>
         </div>
     );
 };
