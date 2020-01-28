@@ -49,4 +49,7 @@
   grid-template-rows: 170px 1fr 20px;
   grid-auto-columns: 2fr 10fr 15%;
 }
+.app-wrapper-content {
+  grid-area: content;
+}
 

@@ -6,13 +6,18 @@ import Menu from "./components/Menu/Menu";
 import Profile from "./components/Profile/Profile";
 import Ads from "./components/Ads/Ads";
 import Footer from "./components/Footer/Footer";
+import Dialogs from "./components/Dialogs/Dialogs";
 
 const App = () => {
   return (
       <div className="app-wrapper">
         <Header />
         <Menu />
-        <Profile />
+        <div className="app-wrapper-content">
+            <Profile />
+            <Dialogs />
+            {/* <Profile />*/}
+        </div>
         <Ads />
         <Footer />
       </div>
