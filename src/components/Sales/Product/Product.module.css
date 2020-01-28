@@ -1,0 +1,19 @@
+.product {
+    font-size: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.product img{
+width: 155px;
+}
+.product div {
+
+}
+.name {
+    font-size: 40px;
+}
+.information {
+    text-align: justify;
+}

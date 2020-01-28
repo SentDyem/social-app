@@ -5,16 +5,16 @@ const Menu = () =>
     return (
         <nav className={s.menu}>
             <div className={s.item}>
-                <a href="#s">Главная</a>
+                <a href="/profile">Профиль</a>
             </div>
             <div className={s.item}>
-                <a href="#s">Клиенты</a>
+                <a href="/dialogs">Клиенты</a>
             </div>
             <div className={s.item}>
-                <a href="#s">Продажи</a>
+                <a href="/sales">Продажи</a>
             </div>
             <div className={s.item}>
-                <a href="#s">Выйти</a>
+                <a href="/logout">Выход</a>
             </div>
         </nav>
     );
