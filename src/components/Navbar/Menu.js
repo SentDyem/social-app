@@ -19,7 +19,7 @@ const Menu = () =>
                 <NavLink to="/sales" activeClassName={s.active}>Продажи</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to="/logout" activeClassName={s.active}>Выход</NavLink>
+                <NavLink to="/ " activeClassName={s.active}>Выход</NavLink>
             </div>
         </nav>
     );

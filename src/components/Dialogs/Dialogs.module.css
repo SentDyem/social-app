@@ -1,3 +1,4 @@
 .dialogs {
-    text-align: center;
+display: grid;
+    grid-template-columns: 7fr 15fr;
 }
