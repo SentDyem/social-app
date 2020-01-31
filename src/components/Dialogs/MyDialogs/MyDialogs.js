@@ -1,13 +1,17 @@
 import React from "react";
 import DialogItem from "./DialogItem/DialogItem";
 const MyDialogs = () => {
-    return (
-            <div>
-                <DialogItem name = 'Петр Пушилин' id = '1' />
-                <DialogItem name = 'Сергей Максимов' id= '2' />
-                <DialogItem name = 'Андрей Михайлов' id= '3' />
-                <DialogItem name = 'Виктор Михайленко' id = '4' />
-            </div>
-    )
+    let dataDialogs = [
+        {id: 1, name: 'Петр Пушилин'},
+        {id: 2, name: 'Сергей Максимов'},
+        {id: 3, name: 'Андрей Михайлов'},
+        {id: 4, name: 'Виктор Михайленко'},
+        {id: 5, name: 'Павел Митряшев'},
+        {id: 6, name: 'Анатолий Сергеев'},
+    ];
+
+    let dialogElements = dataDialogs.map(dialogs => <DialogItem name = {dialogs.name} id = {dialogs.id} />);
+    return
+        { dialogElements }
 }
 export default MyDialogs;
